@@ -73,9 +73,9 @@ if __name__ == "__main__":
 
 
 
-#========================= (Launch a spark by 「interactive environment」)
+#========================= (Launch Spark by 「Interactive Development Environment」)
 # pyspark --master spark://172.21.0.2:7077
 
-#========================= (Launch a spark by shell script)
+#========================= (Launch Spark by 「Shell Script」)
 # spark-submit --master spark://172.21.0.2:7077 message_event_analysis.py
 
