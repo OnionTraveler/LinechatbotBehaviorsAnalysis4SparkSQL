@@ -67,5 +67,11 @@ if __name__ == "__main__":
 
     # save to json file
     freeInputMessageEvent_df.write.json("hdfs://localhost/user/cloudera/SparkSQLBehaviorsAnalysis4Linechatbot/analysisResults/message_event_analysis")
-   
+
+
+
+
+
+#========================= (Launch a spark by 「interactive environment」)
+# pyspark --master spark://172.21.0.2:7077
 
