@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import *
 from pyspark.sql.types import *
@@ -98,4 +99,12 @@ if __name__ == "__main__":
     staying_time_with_memberProfile_df.write.json("hdfs://localhost/user/cloudera/SparkSQLBehaviorsAnalysis4Linechatbot/analysisResults/staying_time_with_memberProfile_df")
 
 
+
+
+
+#========================= (Launch Spark by 「Interactive Development Environment」)
+# pyspark --master spark://172.21.0.2:7077
+
+#========================= (Launch Spark by 「Shell Script」)
+# spark-submit --master spark://172.21.0.2:7077 message_event_analysis.py
 
