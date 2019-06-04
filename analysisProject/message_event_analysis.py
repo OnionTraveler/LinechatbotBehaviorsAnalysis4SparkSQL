@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import *
 from pyspark.sql.types import *
@@ -74,4 +75,7 @@ if __name__ == "__main__":
 
 #========================= (Launch a spark by 「interactive environment」)
 # pyspark --master spark://172.21.0.2:7077
+
+#========================= (Launch a spark by shell script)
+# spark-submit --master spark://172.21.0.2:7077 message_event_analysis.py
 
